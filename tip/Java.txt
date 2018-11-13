@@ -8,7 +8,6 @@ Java Óë javascriptÇø±ð£º1.java »ùÓÚÀà class µÄÃæÏò¶ÔÏó, javascript »ùÓÚ·½·¨ func
 			2.javaÇ¿ÀàÐÍ ÏÔÊ½	JavaScriptÈõÀàÐÍ ÒþÊ½
 			3.javaÃ»ÓÐº¯ÊýÀàÐÍ	JavaScriptÓÐº¯Êý ²¢ÇÒ¿ÉÒÔ¸³Öµ¸øÒ»¸ö±äÁ¿
 			4.
-			5.
 
 
 java×¢Òâµã£º1.java µ½ classµÄ±àÒëÆÚ¼äÓÐ´íÎóÊ±²»»á±àÒë³ÉclassÎÄ¼þ £¨ ±àÒëÆÚ¼ä Óï·¨´íÎó )
@@ -16,11 +15,15 @@ java×¢Òâµã£º1.java µ½ classµÄ±àÒëÆÚ¼äÓÐ´íÎóÊ±²»»á±àÒë³ÉclassÎÄ¼þ £¨ ±àÒëÆÚ¼ä Óï·
 	    3.Ö»ÒªÊ××ÖÄ¸´óÐ´ ¾ÍÊÇÀàclass    ÀàÃû ±ØÐë´óÐ´
 	    4.Ò»¸öÀàÖÐÖ»ÄÜÓÐÒ»¸ö main º¯Êý Ò»¸öÏµÍ³Ö»ÄÜÓÐÒ»¸öÈë¿Ú
 	    5.¿çÀà·ÃÎÊ£¬¹ý³Ì²»±ä
+	    6.¾²Ì¬±äÁ¿ÊÇÊôÓÚÕû¸öÀà£¬²»´æÔÚÓÚÄ³¸ö·½·¨ÄÚ
+	    7.·ÃÎÊÐÞÊÎ·ûprivate Ö»ÄÜÐÞÊÎ Àà ·½·¨ È«¾Ö±äÁ¿£¬²»ÄÜÐÞÊÎ¾Ö²¿±äÁ¿
+	    8.
 
 
 JavaÌØµã£º1.¿çÆ½Ì¨µÄÓïÑÔ  £¨ ÓÐºÜ¶à jdk ÎÄ¼þ £©
 	  2.´¿ÃæÏò¶ÔÏó	£¨ ÀàÃûclass £©
 	  3.±àÒëÐÍ	£¨ java ÎÄ¼þ±àÒë³É class ÎÄ¼þ £¬Í¨¹ý cmdÖÐjavac£©
+	  4.
 
 
 Java»ù±¾Êý¾ÝÀàÐÍ£º1.ÕûÊýÀàÐÍ£ºbyte(×Ö½Ú£¬×î¶à 127)ÄêÁä  short(¶ÌÕûÐÍ)Ñ§Éú±àºÅ  int(ÕûÐÍ) long(³¤ÕûÐÍ)ÊÓÆµ´óÐ¡
@@ -29,7 +32,7 @@ Java»ù±¾Êý¾ÝÀàÐÍ£º1.ÕûÊýÀàÐÍ£ºbyte(×Ö½Ú£¬×î¶à 127)ÄêÁä  short(¶ÌÕûÐÍ)Ñ§Éú±àºÅ  i
 	          4.×Ö·ûÀàÐÍ£ºchar ÓÃµ¥ÒýºÅ
 JavaÒýÓÃÀàÐÍ£º1.String
 	      2.
-	      3.
+
 
 ·â×°£º1.¶ÔÀàÖÐµÄÊôÐÔ( Êý¾Ý )½øÐÐË½ÓÐ
       2.Ìá¸ßÊý¾Ý·ÃÎÊ°²È«ÐÔ
