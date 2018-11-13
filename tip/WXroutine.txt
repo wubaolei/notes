@@ -1,0 +1,86 @@
+微信小程序 1339468596@qq.com
+Smallroutine0824	wx42283e5bfdeaf516
+1375584073@qq.com
+jwb18068951412++    wx78da0641ae1bb916
+
+
+
+数据聚合 1339468596
+	Smallroutine0824
+
+
+
+目录结构
+	pages：页面  整个页面的父目录
+	app.js：js文件
+	app.json：小程序数据（里面不能有任何的注释）
+	app.wsxx：小程序样式
+	
+
+
+编程语言(只有三种)
+	1，标记语言：xml（自己定义的标记语言） html（不能自己定义的标记语言）
+	2，强类型：java c c++ c#
+	3，弱类型：php js
+		声明时不需要定义数据的类型
+	
+JS注意
+	1.[ ] 表示数组，一组数据可以有不一样的数据类型
+
+微信小程序注意
+	1.苹果手机的颜色 app.json中 color：#ccc  其他的不行
+	2.app.json里面不可以有注释
+	3.小程序的页面不可以超过五个
+	4.100vh 像素单位 屏幕多大就有多大，与 100% 意思一样，但是比 100% 好
+	5.在写循环时 最好写在 block 标签中
+	6.tabbar没有图片时 重新启动 软件
+	7.跳转页面中的 url 的路径 不能和tabbar 的路径冲突
+
+
+布局 弹性盒模型
+	display:flex;
+	flex-direction: row横向   column纵向
+	justify-content:center 水平居中
+	align-items:center 垂直居中
+	flex-wrap：wrap超出换行
+
+图片 轮播图
+	swiper标签
+          1.indicator-dots ( true / false ) 圆点
+	  2.indicator-active-color ( 十六进制颜色 ) 切换时圆点颜色
+          3.autoplay ( true / false ) 自动播放
+          4.interval ( 毫秒 ) 切换间隔时间
+          5.duration ( 毫秒 ) 切换时间
+        格式
+          swiper > swiper-item > image
+
+数据格式 JSON
+	各平台和语言之间传递数据的格式 通用是 （ xml 和 json ）
+	json的 传输速度 是 xml 的十倍
+	JSON数据格式 ：JSON数组 JSON对象
+		JSON数组：[ ] , [ ]
+		JSON对象(键值对)：{ "键名（随意）" : "值" }，{ "键名（随意）" : "值" }
+
+事件 单击事件
+	在标签里 加入 bindtap <view bindtap="任意名字">
+	然后在 js 文件夹里表现是  任意名字 : function(){}
+
+	不同页面传参 步骤
+		1.在原页面中获取需要的数据 通过 <data-任意名='数组中的键名'> (在循环中)
+		2.在js 文件中获取 定义点击每一个 e.currentTarget.dataset.1中的任意名
+		3.在第一个页面中 url:'../aaa/aaa?任意名=值&任意名=值'（固定值） 进行页面跳转
+		4.跳转后页面 在data中定义空键
+		5.获取原网页传递的参数 重新定义 options.3中的任意名（注意参数的数据类型）
+		6.把定义后的参数放进4中定义的空键
+
+
+
+
+
+
+
+
+
+,
+ 
+

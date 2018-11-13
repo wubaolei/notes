@@ -1,0 +1,27 @@
+检查是否有 jdk 在cmd中java -version
+dos命令： cd ..退到上一层目录
+	cd 文件名	进入
+	dir	打开文件的目录
+
+java注意点
+	1.java 到 class的编译期间有错误时不会编译成class文件 （ 编译期间 语法错误 )
+	2.运行class文件时 可能会有错误	（ 运行期间错误 ）
+	3.只要首字母大写 就是类class    类名 必须大写
+	4.一个类中只能有一个 main 函数 一个系统只能有一个入口
+	5.跨类访问，过程不变
+
+
+Java 与 javascript
+	java 基于类 class 的面向对象, javascript 基于方法 function 面向对象且不仅仅面向对象
+
+Java特点：
+	1.跨平台的语言  （ 有很多 jdk 文件 ）
+	2.纯面向对象	（ 类名class ）
+	3.编译型	（ java 文件编译成 class 文件 ，通过 cmd中javac）
+
+Java数据类型
+	1.整数类型：byte(字节，最多 127)年龄  short(短整型)学生编号  int(整型) long(长整型)视频大小
+	2.boolean
+	3.浮点类型：默认都是double      float 整数+小数+f 
+	4.字符类型：char 用单引号
+

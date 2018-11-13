@@ -1,0 +1,78 @@
+包：pip install pymysql(连接数据库)
+	pip install flask
+标识符命名 指给变量，方法，构造函数起名字的原则
+	1.单行注释 #  多行注释 英文三个引号 ''' '''
+	2.不能以数字、特殊字符做开头
+	3.定义函数 def 函数名():pass
+		def 函数名()
+			#pass 函数什么都不做写pass
+		函数名()  运行函数
+	4.元祖数据的遍历 for
+		for 任意名 in 元祖名：
+			print
+
+python数据类型 int bool string float 元祖(数组) 列表 字典 set
+	1.字符串不能用 + 连接整型 而是用 ,
+	2.在定义变量是不需要声明 比如int之类的 不要
+	3.type()，输出类型
+	4.id()，内存地址 值不同，地址不同
+	5.运算符 ==双等于返回的是 true/false 比较的是值
+		比较内存地址 id() is id()   is比较的是地址
+	6.单双引号皆表示字符串，字符串之间可以用 + 连接
+	7.字符串比较时，值一样，内存地址不一定一样
+		内存一样，值一定一样
+	8.int float比较时，值一样，内存地址一样 反过来也是一样
+		
+	9.bool中true代表1 false代表0 可以执行运算
+	10.元祖表示 aaa=() 是一个定长定值数据类型 不可以修改里面的值节省内存空间
+	11.元祖类型的遍历 见标识符4
+	12.列表表示 aaa=[ ] 是一个不定长不定值的数据类型
+		添加列表值 aaa.append()
+		修改列表值 aaa[值位置]=任意值
+	13.字典表示 aaa={键值对，键值对} 输出值 aaa[键名]
+		遍历字典 key是键名 value值 items键名和值
+		添加值 aaa[任意键名]=值
+		修改值 aaa[存在键名]=值
+	14.set表示 aaa={"",""} 数据唯一不重复 用len()时 重复数据不计算
+	15.元祖，列表，字典，set皆可 ,""，
+	   列表，字典可以添加修改数据
+	   遍历都是 for 任意名 in 元祖/列表/字典/set名 ：
+
+连接数据库
+
+insert into / update / delete 需要 任意名.commit() 提交数据
+
+	import	pymysql
+	任意名 = pymysql.connect()	//声明一个连接对象 
+		// connect(host="127.0.0.1",post=3306,database="数据库名",user="root",password="123456",charset="utf8")
+	dboperator=任意名.cursor()
+	sql="数据库语句"
+	aaa=dboperator.execute(sql)
+	bbb=aaa.fetchall()
+	   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
