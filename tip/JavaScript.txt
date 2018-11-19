@@ -5,3 +5,13 @@
 	  5.function	函数
 	  6.undefined	未定义
 	
+DOM:document object model --> js针对html，xml的编程 --> 获取html元素，创建html元素
+
+获取元素:1.document.getElementById() --> id值  单个值
+	 2.document.getElementsByName() --> name值  数组
+	 3.document.getElementsByTagName() --> 标签名字  数组
+	 4.document.getElementsByClassName() --> 样式名称  数组
+	 5.document.documentElement()	--> html 
+	 6.document.body()  --> body
+	 7.document.querySelector() -->	id 和 class 名 
+	 8.document.querySelectorAll() --> 
